@@ -1,0 +1,84 @@
+.wrapper{
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 612px;
+height: 792px;
+border: 2px solid rgb(72, 75, 67);
+}
+.header {
+    display: flex;
+    height: 205px;
+    .header__col1 {
+        width: 342px;
+        margin: 46px 64px 49px 16px;
+    }
+    .header__col1-name {
+        color: var(--Black, #222);
+font-family: IBM Plex Sans;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .header__col1-proffession {
+        margin-bottom: 14px;
+        font-family: IBM Plex Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: var(--Gradient-2, linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    .header__col1-description {
+        color: var(--Black, #222);
+font-family: IBM Plex Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 14px;
+    }
+    .header__col1-social_networks {
+        display: flex;
+        
+    }
+    .social__network-cover {
+        align-items: center;
+        
+    }
+    .network {
+        
+    }
+    .network__icon {
+        align-items: center;
+        
+    }
+    .network__link {
+        display: inline-block;
+        align-items: center;
+        color: var(--Black, #222);
+text-align: right;
+font-family: IBM Plex Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-right: 28px;
+    }
+    .header__col2 {
+        margin: 62px 65px 0px 0px;
+        width: 125px;
+height: 125px;
+flex-shrink: 0;
+border-radius: 70px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+}
+.main {
+}
+.footer {
+}
