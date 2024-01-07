@@ -83,6 +83,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
 }
 .main {
+    display: flex;
     .main__col1 {
         width: 341px;
         margin: 49px 16px 0px 17px;
@@ -152,6 +153,54 @@ line-height: normal;
         width: 342px;
 height: 0.5px;
 background: #999;
+    }
+    .main__col2 {
+        width: 222px;
+        .col2__h-line{
+            content: "";
+        width: 222px;
+height: 0.5px;
+background: #999;
+        }
+    }
+    .col2__listskills {
+        color: var(--Black, #222);
+
+/* Description */
+font-family: IBM Plex Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .col1__description {
+    }
+    .col1__h-line {
+    }
+    .col2__languages {
+        color: var(--Black, #222);
+
+/* Description */
+font-family: IBM Plex Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .col2__project-cover {
+    }
+    .project__title {
+        color: var(--Black, #222);
+font-family: IBM Plex Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+    }
+    .project__link-icon {
+    }
+    .col2__project__description {
     }
 }
 .footer {
