@@ -158,6 +158,25 @@
   width: 222px;
   height: 0.5px;
   background: #999;
+  margin: 6px 0 6px 0;
+}
+.main .col2__proffession__one {
+  color: var(--grey, #999);
+  /* Job Title */
+  font-family: IBM Plex Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .col2__proffession__two {
+  color: var(--grey, #999);
+  /* Company */
+  font-family: IBM Plex Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 .main .col2__listskills {
   color: var(--Black, #222);
