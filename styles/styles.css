@@ -80,8 +80,14 @@
   background: url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
 
+.main .main__col1 {
+  width: 341px;
+  margin: 49px 16px 0px 17px;
+}
 .main .col1__title {
+  margin-bottom: 7px;
   color: var(--Black, #222);
+  margin-bottom: 2px;
   /* Section Title */
   font-family: IBM Plex Sans;
   font-size: 12px;
@@ -90,6 +96,7 @@
   line-height: normal;
 }
 .main .col1__date {
+  margin-bottom: 4px;
   /* Date */
   font-family: IBM Plex Sans;
   font-size: 9px;
@@ -101,6 +108,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.main .col1__proffession-cover {
+  display: flex;
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
 .main .col1__proffession__one {
   color: var(--grey, #999);
   /* Job Title */
@@ -111,12 +123,22 @@
   line-height: normal;
 }
 .main .col1__proffession__two {
+  margin-bottom: 3px;
   color: var(--grey, #999);
   /* Company */
   font-family: IBM Plex Sans;
   font-size: 10px;
   font-style: normal;
   font-weight: 300;
+  line-height: normal;
+}
+.main .col1__description {
+  color: var(--Black, #222);
+  /* Description */
+  font-family: IBM Plex Sans;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
 .main .col1__h-line {
