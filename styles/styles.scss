@@ -155,16 +155,16 @@ height: 0.5px;
 background: #999;
     }
     .main__col2 {
+        margin-top: 49px;
         width: 222px;
         .col2__h-line{
             content: "";
         width: 222px;
 height: 0.5px;
 background: #999;
-margin: 6px 0 6px 0;
+margin-top: 5px;
+margin-bottom: 6px;
         }
-    }
-    .col2__proffession-cover{
     }
     .col2__proffession__one {
         color: var(--grey, #999);
@@ -196,10 +196,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
     }
-    .col1__description {
-    }
-    .col1__h-line {
-    }
     .col2__languages {
         color: var(--Black, #222);
 
@@ -210,8 +206,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
     }
-    .col2__project-cover {
-    }
     .project__title {
         color: var(--Black, #222);
 font-family: IBM Plex Sans;
@@ -221,9 +215,28 @@ font-weight: 700;
 line-height: normal;
 text-decoration-line: underline;
     }
-    .project__link-icon {
+    .col2__title {
+        margin-bottom: 7px;
+        margin-top: 20px;
+        color: var(--Black, #222);
+
+/* Section Title */
+font-family: IBM Plex Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     }
     .col2__project__description {
+        margin-bottom: 9px;
+        color: var(--Black, #222);
+
+/* Description */
+font-family: IBM Plex Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
 }
 .footer {
