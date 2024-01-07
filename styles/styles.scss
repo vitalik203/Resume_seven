@@ -83,6 +83,59 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
 }
 .main {
+    .main__col1 {
+    }
+    .col1__title {
+        color: var(--Black, #222);
+
+/* Section Title */
+font-family: IBM Plex Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .col1__date {
+        
+/* Date */
+font-family: IBM Plex Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--Gradient-2, linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    .col1__proffession-cover {
+    }
+    .col1__proffession__one {
+        color: var(--grey, #999);
+
+/* Job Title */
+font-family: IBM Plex Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .col1__proffession__two {
+        color: var(--grey, #999);
+
+/* Company */
+font-family: IBM Plex Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .col1__h-line {
+        content: "";
+        width: 342px;
+height: 0.5px;
+background: #999;
+    }
 }
 .footer {
 }
